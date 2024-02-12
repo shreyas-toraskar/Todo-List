@@ -1,0 +1,56 @@
+body {
+    background-image: linear-gradient(45deg,rgb(126, 202, 246),#6ffa8d);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+}
+.content{
+    width: 500px;
+    min-height: 600px;
+    max-height: 600px;
+    display: inline-block;
+    background-color: white;
+    margin-left: 35%;
+    margin-top: 2%;
+    border-radius: 20px;
+    backdrop-filter: blur(4px) ;   
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;       
+}
+#task {
+    border-radius: 10px;
+    text-align: center;
+    height: 30px;
+    width: 60%;
+    margin: 8% 0% 0% 15%;
+    position: relative;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+div button{
+    position: absolute;
+    width: 80px;
+    height: 35px;
+    margin: 8% 0% 0% -3%;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#elem{
+    min-height: 600px;
+    max-height: 600px;
+    margin: 10% 0% 0% 13%;
+    /* font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+    font-size:x-large;
+    color: black;
+    
+}
+ul li{
+    margin: 2% 0% 0% 0%;
+}
+div ul li span{
+    position: absolute;
+    right: 13%;
+}
+div ul li span:hover{
+    cursor:pointer;
+}
